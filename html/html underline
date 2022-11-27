@@ -1,0 +1,4 @@
+<p style="border-bottom:1px solid black;">1 pixel, solid, black...</p>
+<p style="border-bottom:1px dotted black;">1 pixel, dotted, black...</p>
+<p style="border-bottom:10px double orange;">10 pixels, double orange...</p>
+<p style="border-bottom:1px dashed green;">1 pixel, dashed green...</p>
