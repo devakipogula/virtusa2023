@@ -1,0 +1,13 @@
+ResultSet rs = stmt.executeQuery(
+    "SELECT region_name, zips FROM REGIONS");
+
+while (rs.next()) {
+    Array z = rs.getArray("ZIPS");
+    String[] zips = (String[])z.getArray();
+    for (int i = 0; i < zips.length; i++) {
+        if (!ZipCode.isValid(zips[i])) {
+            // ...
+            // Code to display warning
+        }
+    }
+}
